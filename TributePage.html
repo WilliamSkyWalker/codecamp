@@ -17,17 +17,38 @@
     <![endif]-->
 </head>
 <style>
-    h1.text-center {
+    body {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    .container {
+
+    }
+
+    .text-center {
         text-align: center;
     }
 
-    h2.text-center {
-        text-align: center;
+    h1.text-center {
+
+    }
+
+    h2 {
+
+        font-family: italic;
         font-style: italic;
+
     }
 
     div.jumbotron {
+
         background-color: ivory;
+        /*background-color: blue;*/
+        margin-bottom: 30px;
+        box-sizing: border-box;
+        width: 1170px;
+        margin: 0 auto;
+
     }
 
     div.second-parp {
@@ -40,11 +61,24 @@
         max-width: 100%;
         height: auto;
     }
+
     .center-block {
         display: block;
         margin-left: auto;
         margin-right: auto;
     }
+
+    div.formss{
+        margin-left: 16%;
+        width: 680px!important;
+        text-align: left;
+
+    }
+    li {
+        /*text-indent:0;*/
+        /*text-indent: 2em;*/
+    }
+
 
 
 </style>
@@ -54,16 +88,30 @@
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
 <div class="container">
-    <div class="jumbotron">
+    <div class="jumbotron text-center col-xs-12">
         <h1 class="text-center">Dr. Norman Borlaug</h1>
-        <h2 class="text-center i">The man who saved a billion lives</h2>
+        <h2 class="text-center">The man who saved a billion lives</h2>
+
         <img class="img-responsive center-block" src="https://c2.staticflickr.com/4/3689/10613180113_fdf7bcd316_b.jpg">
 
-        <div class="second-parp">
+        <div class="caption second-parp">
             "Dr. Norman Borlaug, second from left, trains biologists in Mexico on how to increase wheat yields - part of
             his life-long war on hunger."
         </div>
-
+        <div class="formss">
+            <h3>Here's a time line of Dr. Borlaug's life:</h3>
+            <ul>
+                <li>
+                    <strong>1914</strong> - Born in Cresco, Iowa
+                </li>
+                <li>
+                    <strong>1914</strong> Leaves his family's farm to attend the University of Minnesota, thanks to a Depression era program known as the "National Youth Administration
+                </li>
+            </ul>
+            <blockquote>
+                <p>""Borlaug's life and achievement are testimony to the far-reaching contribution that one man's towering intellect, persistence and scientific vision can make to human peace and progress.""</p>
+            </blockquote>
+        </div>
     </div>
 </div>
 
